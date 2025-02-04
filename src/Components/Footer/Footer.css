@@ -35,3 +35,79 @@
     border-radius: 40px;
     cursor: pointer;
 }
+
+@media (max-width: 1024px) {
+    .disclaimer-premium {
+        padding: 0 20px;
+    }
+
+    .disclaimer-premium .disclaimer-premium__title {
+        font-size: 14px;
+    }
+
+    .disclaimer-premium .disclaimer-premium__subtitle {
+        font-size: 14px;
+    }
+
+    .disclaimer-premium button {
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .disclaimer-premium {
+        flex-direction: column;
+        height: auto;
+        padding: 16px;
+        text-align: center;
+    }
+
+    .text {
+        margin-bottom: 12px;
+    }
+
+    .disclaimer-premium button {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 600px) {
+    .disclaimer-premium {
+        padding: 12px;
+    }
+
+    .disclaimer-premium .disclaimer-premium__title {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .disclaimer-premium .disclaimer-premium__subtitle {
+        font-size: 12px;
+    }
+
+    .disclaimer-premium button {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .disclaimer-premium {
+        padding: 10px;
+    }
+
+    .disclaimer-premium .disclaimer-premium__title {
+        font-size: 10px;
+    }
+
+    .disclaimer-premium .disclaimer-premium__subtitle {
+        font-size: 10px;
+    }
+
+    .disclaimer-premium button {
+        padding: 8px 16px;
+        font-size: 10px;
+    }
+}

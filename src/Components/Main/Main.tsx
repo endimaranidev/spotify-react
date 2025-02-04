@@ -22,7 +22,6 @@ const Main = ({ searchTerm, filteredArtists }: MainProps) => {
 
 	return (
 		<div className="playlist-container">
-			{/* Playlists (ocultadas se houver pesquisa) */}
 			<div id="result-playlists" className={showArtists ? "hidden" : ""}>
 				<div className="playlist">
 					<h1 id="greeting">Boas vindas</h1>
@@ -44,7 +43,6 @@ const Main = ({ searchTerm, filteredArtists }: MainProps) => {
 				</div>
 			</div>
 
-			{/* Artistas encontrados */}
 			<div id="result-artist" className={!showArtists ? "hidden" : ""}>
 				<div className="grid-container">
 					{filteredArtists.map((artist) => (

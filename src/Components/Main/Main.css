@@ -194,3 +194,78 @@
     padding: 20px 40px;
   }
   /* FIM CARD ARTISTA */
+
+  @media (max-width: 768px) {
+    .playlist-container {
+        max-width: 100%;
+        margin-left: 250px;
+        height: auto;
+        padding: 10px;
+    }
+
+    .playlist #greeting {
+        font-size: 28px;
+    }
+
+    .playlist .session {
+        font-size: 20px;
+    }
+
+    .offer__list-item {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 12px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-gap: 16px;
+    }
+
+    .artist-card {
+        padding: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .playlist-container {
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 100%;
+        padding: 8px;
+    }
+
+    .offer__list-item {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 8px;
+    }
+
+    .cards {
+        width: 100%;
+        height: 190px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-gap: 10px;
+        min-width: unset;
+    }
+
+    .artist-card {
+        padding: 10px;
+    }
+
+    .artist-name {
+        font-size: 14px;
+    }
+
+    .artist-categorie {
+        font-size: 12px;
+    }
+
+    .play .fa-play {
+        right: 5px;
+        top: 100px;
+        padding: 14px;
+        font-size: 12px;
+    }
+}
