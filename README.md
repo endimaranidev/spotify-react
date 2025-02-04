@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎧 Spotify Clone - Imersão Front-End Alura
 
-## Getting Started
+Seja bem-vindo(a) ao **Spotify Clone**, um projeto desenvolvido durante a **Imersão Front-End da Alura**! 🚀
 
-First, run the development server:
+## 🔥 Sobre o Projeto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Este projeto é uma recriação da página inicial do Spotify. O objetivo é explorar conceitos fundamentais de **HTML, CSS e Javascript**, trazendo uma introdução básica do **ReactJS** para criar uma interface interativa e funcional.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Alterações no Projeto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Como parte do meu processo de aprendizado com ReactJS e TypeScript, tomei a liberdade de realizar algumas alterações significativas no projeto, a fim de otimizar e preparar a aplicação para escalabilidade. Aqui estão as principais modificações feitas até o momento:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Uso de TypeScript em vez de JavaScript**:  
+   O projeto foi reestruturado para utilizar **TypeScript** em vez de **JavaScript**. A escolha de TypeScript visa garantir maior segurança e previsibilidade no código, aproveitando os benefícios da tipagem estática e o poder de ferramentas de análise de código.
 
-## Learn More
+2. **Filtro de Pesquisa com Hooks**:  
+   Implementei um **filtro de pesquisa** utilizando os hooks **useState** e **useEffect** do ReactJS. Isso permite que os dados sejam filtrados dinamicamente à medida que o usuário interage com o campo de pesquisa. Essa funcionalidade não só melhora a usabilidade da aplicação, mas também a prepara para lidar com uma quantidade crescente de dados de forma eficiente.
 
-To learn more about Next.js, take a look at the following resources:
+3. **Escalabilidade do Projeto**:  
+   O código foi estruturado para ser modular e fácil de manter, com a utilização de componentes reutilizáveis e a organização do estado utilizando hooks. O objetivo é permitir que o projeto cresça de maneira organizada e eficiente, facilitando a adição de novas funcionalidades ou a modificação de funcionalidades existentes.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Essas mudanças visam aprimorar tanto a performance quanto a experiência do usuário, tornando o projeto mais robusto e preparado para futuras extensões.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+### ✨ Funcionalidades
+- 🎨 **Interface Responsiva** inspirada no Spotify
+- 🔍 **Barra de pesquisa funcional** para encontrar artistas
+- 🎵 **Listagem de alguns artistas** a partir de uma API local
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🛠️ Tecnologias Utilizadas
+
+As principais tecnologias usadas no projeto são:
+
+- **ReactJS** ⚛️
+- **Next.js** 🚀
+- **TypeScript** 🛠️
